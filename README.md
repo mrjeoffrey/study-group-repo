@@ -39,14 +39,18 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 ## Credits
 ### Collaborators
-- [Brett Hockridge](https://github.com/BroBrett)
-- [Calvin Kim](https://github.com/calvin-kim13)
-- [Jane Toomey](https://github.com/janeToomey)
-- [Jason Yoo](https://github.com/jasonjayoo)
-- [Jane Tiglao](https://github.com/jbtiglao)
-- [Omar Zerpa](https://github.com/Ozerpa)
-- [Rachel Marron](https://github.com/racheldmarron)
-- [Tyler Welker](https://github.com/TWelk)
+| Collaborators | Role |
+| --- | --- |
+|[Jeoffrey Batangan](https://github.com/mrjeoffrey) | Technical Writer |
+| [Jane Tiglao](https://github.com/jbtiglao) | Technical Writer |
+| [Calvin Kim](https://github.com/calvin-kim13) | Technical Writer |
+| [Jane Toomey](https://github.com/janeToomey) | HTML CSS Content Writer |
+| [Jason Yoo](https://github.com/jasonjayoo) | Flexbox / CSS Grid Content Writer |
+| [Omar Zerpa](https://github.com/Ozerpa) | HTML CSS Content Writer |
+|[Rachel Marron](https://github.com/racheldmarron) | HTML CSS Content Writer |
+|[Tyler Welker](https://github.com/TWelk) | JavaScript Content Writer |
+| [Brett Hockridge](https://github.com/BroBrett) | JavaScript Content Writer |
+
 
 ### Attributions
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
