@@ -2,8 +2,8 @@
 
 ## Description
 This repo is a collection of Javascript, HTML and CSS snippets and techniques. The resources available here will translate into development training website. Please use this if:
-- You are a beginnger to web development and want to learn techniques to write your code more efficiently.
-- Become a contributor to the project.
+- You are a beginner to web development and want to learn techniques to write your code more efficiently.
+- you want to become a contributor of this project.
 
 ## Table of Contents (Optional)
 If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -39,17 +39,20 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 ## Credits
 ### Collaborators
-| Collaborators | Role |
+| Technical Writer | HTML/CSS Content Writer | JavaScript Content Writer |
+| --- | --- | --- |
+|[Jeoffrey Batangan](https://github.com/mrjeoffrey) | [Jane Toomey](https://github.com/janeToomey) | [Tyler Welker](https://github.com/TWelk) |
+| [Jane Tiglao](https://github.com/jbtiglao) | [Jason Yoo](https://github.com/jasonjayoo) | [Brett Hockridge](https://github.com/BroBrett) |
+| [Calvin Kim](https://github.com/calvin-kim13) | [Omar Zerpa](https://github.com/Ozerpa) | [Gordon Do](https://github.com/grdnd) | 
+| [Sean Lee](https://github.com/SeanLee23) | [Rachel Marron](https://github.com/racheldmarron) | [Marcus Lewis](https://github.com/lewisemarcus) |
+| [Dante Aparicio](https://github.com/picadante) | | | 
+
+| Role | Description |
 | --- | --- |
-|[Jeoffrey Batangan](https://github.com/mrjeoffrey) | Technical Writer |
-| [Jane Tiglao](https://github.com/jbtiglao) | Technical Writer |
-| [Calvin Kim](https://github.com/calvin-kim13) | Technical Writer |
-| [Jane Toomey](https://github.com/janeToomey) | HTML CSS Content Writer |
-| [Jason Yoo](https://github.com/jasonjayoo) | Flexbox / CSS Grid Content Writer |
-| [Omar Zerpa](https://github.com/Ozerpa) | HTML CSS Content Writer |
-|[Rachel Marron](https://github.com/racheldmarron) | HTML CSS Content Writer |
-|[Tyler Welker](https://github.com/TWelk) | JavaScript Content Writer |
-| [Brett Hockridge](https://github.com/BroBrett) | JavaScript Content Writer |
+| Technical Writer | Handles general and troubleshooting content for `remote repositories`, `html`, `css`, `javascript`. i.e connecting external javascript and css to html pages. pushing / pulling commands for github |
+| HTML / CSS Content Writer | writes snippets of code / techniques used as standard practices in web development regarding HTML & CSS. |
+| JavaScript Content Writer | writes snippets of code / techniques used as standard practices in web development regarding JavaScript. |
+
 
 
 ### Attributions
