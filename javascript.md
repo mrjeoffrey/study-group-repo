@@ -26,3 +26,20 @@
 // What are some usecases to use preventDefault()?
 
 // Why is console.log() important?
+
+//To add add one event listener with the same function to multiple elements
+```
+document.addEventListener("click"), function(event) {
+    if (event.target.matches("element-class-name")) {
+        *do something*
+    }
+ }
+ ```
+//In javascript, to set a CSS class to newly created item:
+
+//use "yourVariable".className = "css-class-name"
+
+// remove() deletes each element
+
+//while loops already exist within functions(will keep running until if condition breaks)
+ 
