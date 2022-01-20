@@ -14,8 +14,10 @@ Name 3 ways to define a function
   <summary>Solution</summary>
   ```
   const, let, or var
+  
   ```
   </details>
+  
  - - -
 
 // Name 5 ways to create loops
