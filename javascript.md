@@ -148,6 +148,9 @@ function reverseString(string) {
 - - -
   
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+array = [6,-18,7,9];
+target = -9;
+Expected output: [1, 3]
  <details>
   <summary>Solution 1(Google) Time Complexity: O(N^2)</summary>
   
@@ -200,8 +203,8 @@ var twoSum = function(nums, target) {
 
       
 //Example:
-numbers = [6,-18,7,9];
-target = -9;
-twoSum(numbers, target); //Expected output: [1,3]     
+numbers = [6,12,7,9];
+target = 13;
+twoSum(numbers, target); //Expected output: [0,2]     
 ```
 </details>
