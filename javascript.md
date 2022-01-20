@@ -67,7 +67,7 @@ document.addEventListener("click"), function(event) {
  How do you reverse a string in-line, given the elements of the string are in an array? ex: ["h", "e", "l", "l", "o"]
  
  <details>
-  <summary>Solution</summary>
+  <summary>Solution Time Complexity: O(1)</summary>
   
  
 ```
@@ -98,16 +98,14 @@ var twoSum = function(nums, target) {
 ```
 </details>
  <details>
-  <summary>Solution 2(Marcus) </summary>
+  <summary>Solution 2(Marcus) Time Complexity: O(N) </summary>
   
  
 ```
 var twoSum = function(nums, target) {
-    var newList = [];
     for (var x = 0; x < nums.length; x++) {
     if (nums.includes(target - nums[x])) {
-        newList = [nums.indexOf(nums[x]), nums.indexOf(target - nums[x])];
-        console.log(newList);
+        var newList = [nums.indexOf(nums[x]), nums.indexOf(target - nums[x])];
         return newList;
         }
     }
