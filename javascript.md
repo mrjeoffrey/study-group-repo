@@ -6,7 +6,17 @@
 
 // Name 3 if conditions
 
-// Name 3 ways to define a function
+- - -
+
+Name 3 ways to define a function
+
+<details>
+  <summary>Solution</summary>
+  ```
+  const, let, or var
+  ```
+  </details>
+ - - -
 
 // Name 5 ways to create loops
 
