@@ -81,7 +81,7 @@ function reverseString(string) {
   
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
  <details>
-  <summary>Solution 1(Google) </summary>
+  <summary>Solution 1(Google) Time Complexity: O(N^2) </summary>
   
   
 ```
@@ -97,4 +97,20 @@ var twoSum = function(nums, target) {
 };
 ```
 </details>
-
+<details>
+  <summary>Solution 2: Marcus Time Complexity: O(N)</summary>
+  
+  ```
+var twoSum = function(nums, target) {
+    for (var x = 0; x < nums.length; x++) {
+        match = target - nums[x];
+        textMatch = toString(match);
+        var index = nums.indexOf(match, 1);
+        if (index != -1) {
+            var newList = [nums.indexOf(nums[x]), index];
+            return newList;
+        }
+    }
+};
+```
+</details>
