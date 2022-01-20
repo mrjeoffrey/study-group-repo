@@ -96,6 +96,7 @@ document.addEventListener("click"), function(event) {
 ```
  
  <details>
+   
   <summary>Solution 2(Google) Time Complexity: O(1)</summary>
   
  
@@ -126,6 +127,7 @@ var twoSum = function(nums, target) {
 };
 ```
 </details>
+  
 <details>
   <summary>Solution 2: Marcus Time Complexity: O(N)</summary>
   
