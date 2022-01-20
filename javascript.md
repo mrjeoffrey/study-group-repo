@@ -13,6 +13,7 @@ Name 3 ways to define a function
 <details>
   
   <summary>Solution</summary>
+  
   ```
   const, let, or var
   
