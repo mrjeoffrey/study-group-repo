@@ -97,7 +97,9 @@ while loops already exist within functions(will keep running until if condition 
 
 - - -
 
-# Leetcode Questions and Solutions(Feel free to enter your own solutions or ones you've found!)
+# Leetcode Questions and Solutions
+
+## (Feel free to enter your own solutions or ones you've found!)
  
  How do you reverse a string in-line, given the elements of the string are in an array? ex: ["h", "e", "l", "l", "o"]
  
