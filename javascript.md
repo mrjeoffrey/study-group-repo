@@ -101,14 +101,31 @@ var twoSum = function(nums, target) {
   <summary>Solution 2: Marcus Time Complexity: O(N)</summary>
   
   ```
+//Two sum function.
 var twoSum = function(nums, target) {
+    //Iterates over the length of the array.
     for (var x = 0; x < nums.length; x++) {
-        match = target - nums[x];
+        //Assign a variable 'match' to the difference between the target 
+        //and the 'x' index in the array.
+        var match = target - nums[x];
+        //Assign a variable 'index' to the 'match' variable's index value,
+        //after the first 'x' index.
+        //This is done to avoid assigning the index to the 'x' index
+        //in the case that the target is a double of the 'x' index.
+        //The value of 'index' is assigned '-1' if the 'match' value 
+        //does not exist within the array. 
         var index = nums.indexOf(match, x+1);
+        //Checks for an existing 'match' via 'index' check.
         if (index != -1) {
+            //If a 'match' is found('index' does not equal '-1'):
+            //Assign an array 'newList' to the values of the index
+            // of 'x' and 'index'.
             var newList = [nums.indexOf(nums[x]), index];
+            //Returns the newList containing the correct indices.
             return newList;
         }
+        //The 'x' index increases if the 'x' index value itself is not
+        //one of the available matching values.
     }
 };
 ```
