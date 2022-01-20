@@ -11,6 +11,7 @@
 Name 3 ways to define a function
 
 <details>
+  
   <summary>Solution</summary>
   ```
   const, let, or var
@@ -52,6 +53,7 @@ Name 3 ways to define a function
 // Why is console.log() important?
 - - -
 To add add one event listener with the same function to multiple elements
+
 <details>
   <summary>Solution</summary>
     
@@ -125,7 +127,7 @@ function reverseString(string) {
   
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
  <details>
-  <summary>Solution 1(Google) Time Complexity: O(N^2) </summary>
+  <summary>Solution 1(Google) Time Complexity: O(N^2)</summary>
   
   
 ```
@@ -143,7 +145,7 @@ var twoSum = function(nums, target) {
 </details>
   
 <details>
-  <summary>Solution 2: Marcus Time Complexity: O(N)</summary>
+  <summary>Solution 2: (Marcus) Time Complexity: O(N)</summary>
   
   ```
 //Two sum function.
