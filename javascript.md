@@ -51,6 +51,7 @@ document.addEventListener("click"), function(event) {
  ```
     
  </details>
+ 
  - - -
  
 //In javascript, to set a CSS class to newly created item:
@@ -73,6 +74,7 @@ function reverseString(string) {
 }
 ```
 </details>
+
 - - -
   
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
