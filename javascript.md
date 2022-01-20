@@ -16,7 +16,8 @@ Name 3 ways to define a function
   const, let, or var
   
   ```
-  </details>
+  
+</details>
   
  - - -
 
