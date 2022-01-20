@@ -19,8 +19,6 @@ Name 3 ways to define a function
   ```
   
 </details>
-  
- - - -
 
 // Name 5 ways to create loops
 
