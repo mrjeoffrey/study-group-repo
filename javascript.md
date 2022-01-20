@@ -94,7 +94,8 @@ document.addEventListener("click"), function(event) {
     string = s.split("");
 }
 ```
- 
+</details>
+
  <details>
    
   <summary>Solution 2(Google) Time Complexity: O(1)</summary>
