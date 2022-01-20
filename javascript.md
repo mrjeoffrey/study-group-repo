@@ -38,7 +38,7 @@
 
 // Why is console.log() important?
 - - -
-//To add add one event listener with the same function to multiple elements
+To add add one event listener with the same function to multiple elements
 <details>
   <summary>Solution</summary>
     
@@ -61,8 +61,10 @@ document.addEventListener("click"), function(event) {
 // remove() deletes each element
 
 //while loops already exist within functions(will keep running until if condition breaks)
+
+- - -
  
- //How do you reverse a string in-line, given the elements of the string are in an array? ex: ["h", "e", "l", "l", "o"]
+ How do you reverse a string in-line, given the elements of the string are in an array? ex: ["h", "e", "l", "l", "o"]
  
  <details>
   <summary>Solution</summary>
