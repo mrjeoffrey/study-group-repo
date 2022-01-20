@@ -106,10 +106,12 @@ var twoSum = function(nums, target) {
     var newList = [];
     for (var x = 0; x < nums.length; x++) {
     if (nums.includes(target - nums[x])) {
-        newList = [nums.indexOf(target - nums[x]), nums.indexOf(nums[x])];
+        newList = [nums.indexOf(nums[x]), nums.indexOf(target - nums[x])];
+        console.log(newList);
         return newList;
         }
     }
 };
+
 ```
 </details>
