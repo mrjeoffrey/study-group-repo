@@ -97,19 +97,4 @@ var twoSum = function(nums, target) {
 };
 ```
 </details>
- <details>
-  <summary>Solution 2(Marcus) Time Complexity: O(N) </summary>
-  
- 
-```
-var twoSum = function(nums, target) {
-    for (var x = 0; x < nums.length; x++) {
-    if (nums.includes(target - nums[x])) {
-        var newList = [nums.indexOf(nums[x]), nums.indexOf(target - nums[x])];
-        return newList;
-        }
-    }
-};
 
-```
-</details>
