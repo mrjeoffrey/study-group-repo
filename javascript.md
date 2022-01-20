@@ -104,8 +104,7 @@ var twoSum = function(nums, target) {
 var twoSum = function(nums, target) {
     for (var x = 0; x < nums.length; x++) {
         match = target - nums[x];
-        textMatch = toString(match);
-        var index = nums.indexOf(match, 1);
+        var index = nums.indexOf(match, x+1);
         if (index != -1) {
             var newList = [nums.indexOf(nums[x]), index];
             return newList;
