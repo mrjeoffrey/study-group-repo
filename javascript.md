@@ -67,7 +67,36 @@ document.addEventListener("click"), function(event) {
  How do you reverse a string in-line, given the elements of the string are in an array? ex: ["h", "e", "l", "l", "o"]
  
  <details>
-  <summary>Solution Time Complexity: O(1)</summary>
+  <summary>Solution 1(Marcus) Time Complexity: O(N)</summary>
+  
+  ```
+  function reverseString(string) {
+    //Creates an empty string for temporary use.
+    var tempString = "";
+    //Converts the original array to a string value 's'.
+    s = string.join("");
+    //For each element in the string 's', adds the last element of string 's'
+    //to the first available position in 'tempString'.
+    //We start with 'y = s.length' and want to reduce 'y' for the purpose of
+    //iterating through each element, as the length is ever decreasing.
+    //If you tried to start with 'y = 0' and increase 'y' each iteration,
+    //You would not concat a certain amount of elements in the string, as the
+    //value of 'y' and 's.length' approach.
+    for (let y = s.length; y > 0; y--) { 
+        tempString = tempString.concat(s.charAt(y - 1));
+        //Removes the last item from the string 's' to not repeat letters.
+        s = s.slice(0, y - 1);
+    }
+    //Reassign the 's' string to tempString.
+    s = tempString;
+    //Reassign the 'string' to 's.split("")', which creates a new array, separating
+    //each element.
+    string = s.split("");
+}
+```
+ 
+ <details>
+  <summary>Solution 2(Google) Time Complexity: O(1)</summary>
   
  
 ```
