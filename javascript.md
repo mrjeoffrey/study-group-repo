@@ -37,7 +37,7 @@
 // What are some usecases to use preventDefault()?
 
 // Why is console.log() important?
-
+- - -
 //To add add one event listener with the same function to multiple elements
 <details>
   <summary>Solution</summary>
@@ -51,6 +51,8 @@ document.addEventListener("click"), function(event) {
  ```
     
  </details>
+ - - -
+ 
 //In javascript, to set a CSS class to newly created item:
 
 //use "yourVariable".className = "css-class-name"
@@ -69,5 +71,25 @@ document.addEventListener("click"), function(event) {
 function reverseString(string) {
     string = string.reverse()
 }
+```
+</details>
+- - -
+  
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+ <details>
+  <summary>Solution</summary>
+  
+  
+```
+var twoSum = function(nums, target) {
+    for (var x = 0; x < nums.length; x ++) {
+        for (var y = x+1; y < nums.length; y++) {
+        if(nums[x] + nums[y] == target) {
+            var sum = [x,y];
+            return sum;
+        }
+      }
+   }
+};
 ```
 </details>
