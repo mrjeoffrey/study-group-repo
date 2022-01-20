@@ -128,5 +128,11 @@ var twoSum = function(nums, target) {
         //one of the available matching values.
     }
 };
+
+      
+//Example:
+numbers = [6,-18,7,9];
+target = -9;
+twoSum(numbers, target); //Expected output: [1,3]     
 ```
 </details>
