@@ -107,9 +107,9 @@ var twoSum = function(nums, target) {
     for (var x = 0; x < nums.length; x++) {
     if (nums.includes(target - nums[x])) {
         newList = [nums.indexOf(target - nums[x]), nums.indexOf(nums[x])];
+        return newList;
         }
     }
-    return newList;
 };
 ```
 </details>
