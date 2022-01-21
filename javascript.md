@@ -219,11 +219,12 @@ You are given an array of k linked-lists lists, each linked-list is sorted in as
 
 Merge all the linked-lists into one sorted linked-list and return it.
       
+[Hint](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/1024px-Merge_sort_algorithm_diagram.svg.png)      
+      
 <details>
       
 <summary>Solution(none yet)</summary>
       
-<summary>[Hint](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/1024px-Merge_sort_algorithm_diagram.svg.png)</summary>
       
 ```
       
