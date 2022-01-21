@@ -219,11 +219,12 @@ You are given an array of k linked-lists lists, each linked-list is sorted in as
 
 Merge all the linked-lists into one sorted linked-list and return it.
       
-      <details>
+<details>
       
-      <summary>Solution(none yet)</summary>
+<summary>Solution(none yet)</summary>
       
 ```
+      
 ```      
       
-      </details>
+</details>
