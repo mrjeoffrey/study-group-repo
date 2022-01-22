@@ -118,6 +118,62 @@ message = "Not Found"
 
 You can create an if conditional to adjust the DOM/other things if the above message shows in console.
 
+<details>
+  
+  <summary>Example</summary>
+  
+  ```
+  //URL with errors will return message = "Not Found"
+//Can create conditions with the message or if response is not ok
+var badUrl = 'https://api.github.com/repos/twitter/chill/issuesper_pa5';
+var goodUrl = 'https://api.github.com/repos/twitter/chill/issues?per_page5';
+
+var footerEl = document.querySelector('footer');
+//example using badUrl, feel free to switch to goodUrl to see the difference!
+fetch(badUrl)
+  .then(function (response) {
+    if(response.ok) {
+      return response.json();
+    }
+    else {
+      console.log("Not Successful");
+      //if return response.json() was added here,
+      //then data would still be parsed, although empty
+      //.then() below still runs, however an error returns
+      //because the 'data' is undefined(there is no return statement).
+    }
+  })
+  .then(function (data) {
+    //Footer element is still removed(.then() are independent/async)
+    footerEl.remove();
+    //If/else statement should not run, as the response to badUrl is not OK.
+    //Meaning 'data' is undefined, and therefore there is no data.message.
+    //You could adjust the below condition to "if (data == undefined)"
+    //ex:
+    /* 
+
+    if (data == undefined) {
+      console.log("Check to see you've entered the correct URL");
+    }
+     */
+    if (data.message == "Not Found") {
+        console.log("Check to see you've entered the correct URL");
+      }
+    else {
+      console.log('Github Repo Issues \n----------');
+      for (var i = 0; i < data.length; i++) {
+        console.log(data[i].url);
+        console.log(data[i].user.login);
+      }
+      footerEl.textContent = "hello";
+    }
+  });
+                                      
+  ```
+
+                                      
+</details>                                     
+                                      
 - - -
 
 # Leetcode Questions and Solutions
