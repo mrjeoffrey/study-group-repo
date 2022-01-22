@@ -32,11 +32,17 @@ What is the appropriate syntax to create if conditions?
 
 What is the appropriate synxtax to define a function?
 
+<details>
+  
+  <summary>Solution</summary>
+
 ```
 function functionName() {}
 //OR
 var functionName = function() {}
 ```
+  
+</details>
 
 What is the appropriate syntax to create loops?
 
@@ -52,6 +58,10 @@ Show me one way to use timeInterval method?
 
 How do you store data from variables into the local storage?
 
+<details>
+  
+  <summary>Solution</summary>
+
 ```
 localStorage.setItem("storedItem", value);
 //To retrieve:
@@ -59,7 +69,7 @@ localStorage.getItem("storedItem");
 //Assign to a variable 'stored':
 const stored = localStorage.getItem("storedItem");
 ```
-
+</details>
 
 How do you see stored data in the browser, for example CHROME?
 
@@ -86,14 +96,27 @@ document.addEventListener("click"), function(event) {
     
  </details>
  
+- - -
+
+# Notes and Small Details
  
 In javascript, to set a CSS class to newly created item:
 
+```
 use "yourVariable".className = "css-class-name"
+```
 
 remove() deletes each element
 
 while loops already exist within functions(will keep running until if condition breaks)
+
+In fetch requests, URLs/data passed through with errors will return:
+
+```
+message = "Not Found"
+```
+
+You can create an if conditional to adjust the DOM/other things if the above message shows in console.
 
 - - -
 
